@@ -1,0 +1,8 @@
+console.log("A- Memory")
+console.log(process.memoryUsage())
+console.log("B- Directorio de ejecucion")
+console.log(process.cwd())
+console.log("C- variables del entorno")
+console.log(process.allowedNodeEnvironmentFlags)
+console.log("D- CPU utilizado")
+console.log(process.arch)
